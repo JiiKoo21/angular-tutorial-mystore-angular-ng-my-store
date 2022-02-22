@@ -4,7 +4,8 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class CartService {
 
-   items = [];
+   //items = [];
+   items = Array();
 
   constructor( private http: HttpClient) { }
 
